@@ -1,42 +1,45 @@
-CARROZZERIA
+ID - INT - PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+
+CARROZZERIA - VARCHAR(13)
 [Berlina, Cabrio, CityCar, Coupe, Monovolume, Station Wagon,Suv, Fuoristrada]
 
-ALIMENTAZIONE
+ALIMENTAZIONE - VARCHAR(17)
 [Benzina, Diesel, Elettrica, Elettrica/Benzina, Elettrica/Diesel, Gpl,Metano]
 
-MARCA
+MARCA - VARCHAR(15)
 [Audi ,Alfa Romeo, Bmw etc...... ]
 
-MODELLO
+
+MODELLO - VARCHAR - VARCHAR(15) -  
 [Relazione alla Marca]
 
-PREZZO
+PREZZO - DECIMAL - 
 
-KM
+KM - SMALLINT - 
 
-ANNO
+ANNO - YEAR - 
 
-CILINDRATA CM³
+CILINDRATA CM³ - SMALLINT - 
 [da 50 a 6000]
 
-POTENZA CV
+POTENZA CV - SMALLINT - 
 [da 0 a 500]
 
-OMOLOGAZIONE ANTINQUINAMENTO
+OMOLOGAZIONE ANTINQUINAMENTO - VARCHAR(5) - 
 [Euro0, Euro1, Euro2, Euro3, Euro4, Euro5, Euro6, ZeroE]
 
-CAMBIO
+CAMBIO - VARCHAR(21) -
 [Manuale, Automatico, Automatico/SelesSpeed]
 
-TRAZIONE
+TRAZIONE - VARCHAR(33) - 
 [Anteriore, Posteriore, Integrale Permanente, Anteriore + Posteriore Inseribile, Posteriore + Anteriore Inseribile]
 
-COLORE
+COLORE - VARCHAR(25) -
 [Blu, Bianco, Nero, Rosso etc ]
 
-PORTE
+PORTE - TINYINT -
 [2, 3, 4, 5, 6, 7]
 
-FOTO
+FOTO - VARCHAR(10) - 
 [Con Foto, Senza Foto]
 
